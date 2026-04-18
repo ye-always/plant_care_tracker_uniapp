@@ -1,0 +1,42 @@
+{
+  "name": "plant-care-tracker-uniapp",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env VITE_CJS_IGNORE_WARNING=true vite",
+    "dev:h5": "cross-env VITE_CJS_IGNORE_WARNING=true vite --mode h5",
+    "dev:mp-weixin": "cross-env VITE_CJS_IGNORE_WARNING=true vite --mode mp-weixin",
+    "build": "cross-env VITE_CJS_IGNORE_WARNING=true vite build",
+    "build:h5": "cross-env VITE_CJS_IGNORE_WARNING=true vite build --mode h5",
+    "build:mp-weixin": "cross-env VITE_CJS_IGNORE_WARNING=true vite build --mode mp-weixin",
+    "build:mp-alipay": "cross-env VITE_CJS_IGNORE_WARNING=true vite build --mode mp-alipay",
+    "build:mp-baidu": "cross-env VITE_CJS_IGNORE_WARNING=true vite build --mode mp-baidu",
+    "build:mp-toutiao": "cross-env VITE_CJS_IGNORE_WARNING=true vite build --mode mp-toutiao",
+    "build:mp-qq": "cross-env VITE_CJS_IGNORE_WARNING=true vite build --mode mp-qq",
+    "build:app": "cross-env VITE_CJS_IGNORE_WARNING=true vite build --mode app"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0-alpha.10",
+    "@dcloudio/uni-ui": "^1.4.25",
+    "@vueuse/core": "^10.7.0",
+    "date-fns": "^3.6.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.3.5",
+    "@dcloudio/uni-automator": "^3.0.0-alpha.10",
+    "@dcloudio/uni-cli-shared": "^3.0.0-alpha.10",
+    "@dcloudio/uni-migration": "^3.0.0-alpha.10",
+    "@dcloudio/uni-template-compiler": "^3.0.0-alpha.10",
+    "@dcloudio/vite-plugin-uni": "^3.0.0-alpha.10",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^20.11.17",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "autoprefixer": "^10.5.0",
+    "cross-env": "^10.1.0",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.12"
+  }
+}
